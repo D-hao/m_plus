@@ -63,6 +63,7 @@ public class CRUDMeiNv {
         Page<Meinv> meinvPage = meinvMapper.selectPage(page, null);
         page.getRecords().forEach(System.out::println);
         System.out.println("完成测试");
+        System.out.println("over");
     }
 
 }
