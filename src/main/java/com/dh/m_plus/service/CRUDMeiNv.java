@@ -32,7 +32,7 @@ public class CRUDMeiNv {
         meinv.setEname("周芷若");
         meinv.setShengao(1);
         UpdateWrapper<Meinv> meinvUpdateWrapper = new UpdateWrapper<>();
-        meinvUpdateWrapper.eq("id",20);
+        meinvUpdateWrapper.eq("id",80);
         int result = meinvMapper.update(meinv,meinvUpdateWrapper);
         System.out.println(result);
     }
